@@ -1,5 +1,5 @@
-   <!DOCTYPE html>
-   <html lang="en">
+ <!DOCTYPE html>
+<html lang="en">
        <meta charset="UTF-8">
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -26,7 +26,19 @@
            <li>Database </li>
 
            <li>Networking</li>
+               <ul>
+                  <li>VPC Endpoints </li>
+                     <p>VPC endpoints allow instances to privately connect form the vpc to supported AWS services. It does not require an internt gateway ,NAT device ,VPN connection or AWS direct connection  </p>
 
+                     <p>traffic between the VPC and other services does not leave the AWS network</p>
+
+                     <p>There are two types of VPC endpoints interface (everything else) and gateway endpoints (S3 and Dynamo Db only) </p>
+
+                     <p>They are horizontally scaled redundant and highly available VPC components. They have no availabilty risks or bandwidth limitations.
+                     The endpoints must be in the same region as the vpc  </p>
+
+
+               </ul>
            <li>Domain 1 Resilient Architectures</li>
 
            <li>Domain 2 Performant Architectures</li>
@@ -42,7 +54,7 @@
            <li>Miscellaneous updates</li>
            
        </ol>
-    </nav>
+   </nav>
 
    </body>
 <footer>
