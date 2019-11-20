@@ -14,7 +14,14 @@ margin-bottom: 2px;}
 
 /*class selector for multiple elements*/
 .post { font-size: x-large;
-margin: 10px;}
+border-left: 4px solid salmon;
+padding-left: 15px;
+margin-bottom: 30px;}
 
+body{}
 
+footer {
+    padding 40px 20px;
+    background-color: azure;
+}
 
