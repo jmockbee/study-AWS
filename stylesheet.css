@@ -10,7 +10,8 @@ header {
 /*id selector only for one element */
 #subtitle {font-size: large;
 margin-top: 2px;
-margin-bottom: 2px;}
+margin-bottom: 2px;
+}
 
 /*class selector for multiple elements*/
 .post { font-size: x-large;
@@ -18,10 +19,21 @@ border-left: 4px solid salmon;
 padding-left: 15px;
 margin-bottom: 30px;}
 
-body{}
+article p {
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 20px;
+
+}
+
+article li {
+    font-size: 45px;
+}
+
+
 
 footer {
-    padding 40px 20px;
+    padding: 40px 20px;
     background-color: azure;
 }
 

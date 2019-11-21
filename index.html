@@ -43,6 +43,7 @@
 
            <li class="post">Networking</li>
                <ul>
+                   <article>
                   <li>VPC Endpoints </li>
                      <p>VPC endpoints allow instances to privately connect form the vpc to supported AWS services. It does not require an internt gateway ,NAT device ,VPN connection or AWS direct connection  </p>
 
@@ -53,7 +54,23 @@
                      <p>They are horizontally scaled redundant and highly available VPC components. They have no availabilty risks or bandwidth limitations.
                      The endpoints must be in the same region as the vpc  </p>
 
-
+                     <li>VPC flow logs </li>
+                     <p>captures information about IP traffic going    intoand from the network interfaces in your    vpc </p>
+                     <p>It can help you with number of tasks. 
+                        troubleshoot why traffic is not reaching an instance. Helps you diagnose over restrictive security group rules.
+                        You can use them as a security too to monitor the traffic that is reaching instance  
+                     </p>
+                     <p> You can create a flow log for your vpc,a       subnet, or a network interface in the vpc.
+                     </p>
+                     <p> for an interface you will get flow log         records which are log events consisting of     fields
+                     </p>
+                
+                    <li>VPC DHCP dynamic host configuration protocol 
+                    </li>
+                        <p>provides a standard for passing configuration information to hosts on a TCP/IP network. It tells you who the DNS is. Is it Amazon or some other source. It is called an options field. Once created you cannot modify your your DHCP options , you must create a new set. you can only have one set at a time  </p>
+                        <li>What is IPsec VPN?
+                            Internet Protocol Security (IPsec) VPN refers to the process of creating and managing VPN connections or services using an IPsec protocol suite. It is a secure means of creating VPN .</li>
+                        </article>
                </ul>
            <li class="post" >Domain 1 Resilient Architectures</li>
 
