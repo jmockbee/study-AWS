@@ -84,7 +84,25 @@
 
            <li class="post" >YAML building </li>
 
-           <li class="post" >Miscellaneous updates</li>
+           <li class="post" >AWS Misc Services</li>
+           <articlemu>
+               <li> AWS organizations</li>
+                <p>As a service for account management. It enables managing multiple AWS accounts at scaleConsolidates multiple AWS accounts to single Oraganization. Use free of charge. Global service and can be reached through endpoint in US East Region. 
+                Has a parent container (root) the root flows down and bcaomes applied to all organizational units. An OU can only have 1 parent. Master account is the payer.  </p>
+                <p> Works hand in hand with IAM  and can manage cross account access</p>
+                <p> Features can invite other account  to join and apply policies selectively ot all of them. You can create a heirachy based on either budegetarty , security or compliance needs. You can nest up to 5 levels. To do anything myst be approved by master account and account otherwise wont work.   </p>
+                <li>Database Migration Services  </li>
+                <p>DMS can use differnt database engines. Example mySQL to DynamoDb. Aws must be either the source or the target for migration  </p>
+                <p>You can create target tables or AWS will do it for you. It can create a replication task. It inovles 1. the full loasd of existing data. 2. the application of cached changes . 3 . ongoing replication</p>
+                <p> may need to use schema conversion tool  (AWS SCT) if the migration involves changing the database engine</p>
+                <p> DMS uses multi AZ  especiallly if huge database . Can provide one ore more replicaiton tasks on EC@ instances. You will have a standby and a replica  </p>
+
+
+
+
+
+
+           </articlemu>
            
        </ol>
    </nav>
