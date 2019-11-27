@@ -10,6 +10,7 @@ h1 {
 header {
    background-color: rgb(189, 189, 50);
    margin: 10px;
+  
 
 }
 /*id selector only for one element */
@@ -17,6 +18,10 @@ header {
 margin-top: 2px;
 margin-bottom: 2px;
 }
+
+#oct {float:right;
+}
+
 
 /*class selector for multiple elements*/
 .post { font-size: x-large;
@@ -33,10 +38,19 @@ article p {
 
 article li {
     font-size: 45px;
+    margin: 20px;
 }
 
+article-d {
+    margin: 20px;
+}
+article-n {
+    margin: 20px;
+ }
 
-
+ articlemu{
+    margin: 20px;
+ }
 footer {
     padding: 40px 20px;
     background-color: azure;
