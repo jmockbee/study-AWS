@@ -51,6 +51,11 @@ article-n {
  articlemu{
     margin: 20px;
  }
+
+ articlemu, p{
+margin: 50px;
+
+ }
 footer {
     padding: 40px 20px;
     background-color: azure;
